@@ -1,0 +1,85 @@
+body{
+    background-image: linear-gradient(#acd42b, #26a9bd, #04102c);
+    min-height: 100vh;
+    color: white;
+}
+.slide{
+    max-width: 700px;
+    max-height: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+.sofia-regular {
+    font-family: "Sofia", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .food{
+    text-align: center;
+    margin-bottom: 50px;
+    font-style: italic;
+  }
+  .name{
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .dame{
+    text-align: center;
+    margin-bottom: 30px;
+    font-style: italic;
+  }
+  .ehr {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  .lame{
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+    
+  }
+  .foster{
+    max-width: 100px;
+    min-width: 0px;
+    max-height: 200px;
+    min-height: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    animation: sak 3s forwards;
+  }
+  @keyframes sak{
+    
+    from{
+    max-width: 1000px;
+    max-height: 3000px;
+    }
+    to{
+        width: 100%;
+        height: 100%;
+    }
+}
+hr{
+  background-color: rgb(0, 0, 0);
+  height: 1px;
+}
+.card{
+  background-color: inherit;
+}
+.wine{
+  max-width: 600px;
+  min-width: 400px;
+}
+.active{
+  background: rgba(0, 0, 0, 0.348);
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-style: double;
+}
