@@ -83,3 +83,13 @@ hr{
   border-top-right-radius: 25px;
   border-style: double;
 }
+
+
+article{
+  background-color: rgb(30, 39, 48);
+  margin: 20px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
