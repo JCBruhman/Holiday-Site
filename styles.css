@@ -65,10 +65,24 @@ article{
   border-bottom-left-radius: 100px;
   border-bottom-right-radius: 100px;
   width: 20rem;
+  transition-property: width, margin;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
 }
 .card{
   background-color: inherit;
+  border-color: #04102c;
+  border-width: 0.5px;
 }
 .done{
   background-color: rgb(30, 39, 48);
+}
+.card-texts{
+  font-family: "Sofia", serif;
+  text-align: center;
+}
+.things:hover{
+  width: 25rem;
+  margin: auto;
 }
