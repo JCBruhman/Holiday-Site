@@ -16,45 +16,6 @@ body{
     font-weight: 400;
     font-style: normal;
   }
-  .food{
-    text-align: center;
-    margin-bottom: 50px;
-    font-style: italic;
-  }
-  .name{
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  .dame{
-    text-align: center;
-    margin-bottom: 30px;
-    font-style: italic;
-  }
-  .ehr {
-    font-family: "Open Sans", serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
-  }
-  .lame{
-    text-align: center;
-    margin-bottom: 30px;
-    color: white;
-    
-  }
-  .foster{
-    max-width: 100px;
-    min-width: 0px;
-    max-height: 200px;
-    min-height: 0px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    animation: sak 3s forwards;
-}
 .foot{
   background-color: inherit;
 }
@@ -65,14 +26,9 @@ article{
   border-bottom-left-radius: 100px;
   border-bottom-right-radius: 100px;
   width: 20rem;
-  transition-property: width, margin;
-  transition-duration: 2s;
-  transition-timing-function: linear;
-  transition-delay: 1s;
 }
 .card{
   background-color: inherit;
-  border-color: #04102c;
   border-width: 0.5px;
 }
 .done{
@@ -83,6 +39,26 @@ article{
   text-align: center;
 }
 .things:hover{
-  width: 25rem;
-  margin: auto;
+  animation: bigger 2s forwards;
+}
+@keyframes bigger{
+  from{
+    border-width: 0.5px;
+  }
+  to{
+    border-width: 10px;
+    color: initial;
+  }
+}
+.food{
+  text-align: center;
+}
+.foot-icon{
+  width: 30px;
+}
+.d-flexa{
+  font-family: "Exo 2", serif;
+}
+.foster{
+  text-align: left;
 }
