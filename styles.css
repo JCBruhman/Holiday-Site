@@ -3,14 +3,6 @@ body{
     min-height: 100vh;
     color: white;
 }
-.slide{
-    max-width: 700px;
-    max-height: 700px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-}
 .sofia-regular {
     font-family: "Sofia", serif;
   }
@@ -64,4 +56,7 @@ article{
 }
 .form{
   margin: 30px;
+}
+.navbar{
+  color:rgb(255, 255, 255);
 }
