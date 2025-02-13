@@ -16,6 +16,7 @@ body{
   }
 .foot{
   background-color: inherit;
+  border-color: white;
 }
 article{
   margin: 20px;
@@ -45,7 +46,8 @@ article{
   }
   to{
     border-width: 10px;
-    color: initial;
+    background-color: white;
+    color: black;
   }
 }
 .food{
