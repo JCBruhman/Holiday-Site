@@ -6,6 +6,11 @@ body{
 .sofia-regular {
     font-family: "Sofia", serif;
   }
+@media only screen and (max-width: 500px) {
+  .food {
+    margin-top: 65px;
+  }
+}
 .foot{
   background-color: inherit;
   border-color: white;
