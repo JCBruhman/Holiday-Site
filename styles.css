@@ -74,7 +74,20 @@ hr{
   color:white;
 }
 @media only screen and (max-width: 500px) {
-  .work{
+  .bread{
+    width: 500px;
+    height: 250;
+  }
+}
+.bread{
+  width: 960px; 
+  height: 450px;
+}
+.info{
+
+}
+@media only screen and (max-width: 500px) {
+  .work {
     margin-right: 100px;
   }
 }
